@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:text="ID"
         tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:layout_editor_absoluteY="114dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/pw_login"
@@ -20,7 +21,8 @@
         android:layout_height="wrap_content"
         android:text="Password"
         tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="177dp" />
+        tools:layout_editor_absoluteY="177dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/signin_btn"
@@ -28,7 +30,8 @@
         android:layout_height="wrap_content"
         android:text="sign in"
         tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteY="226dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/signup_btn"
@@ -36,5 +39,7 @@
         android:layout_height="wrap_content"
         android:text="sign up"
         tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="308dp" />
+        tools:layout_editor_absoluteY="308dp"
+        tools:ignore="MissingConstraints" />
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
